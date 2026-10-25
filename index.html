@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semanggi &amp; Lily — The Wedding Album</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Header menggunakan komponen dan utility Bootstrap -->
+  <header class="topbar fixed-top">
+    <div class="container-fluid px-3 px-lg-5">
+      <div class="d-flex align-items-center justify-content-between gap-3" style="min-height:64px">
+        <a href="#" class="d-flex align-items-center gap-3">
+          <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <div class="d-flex align-items-baseline gap-2">
+            <span class="serif fs-5">S &amp; L</span><span class="text-muted-custom">/</span>
+            <span class="mono text-subtle eyebrow d-none d-sm-inline">Studio Master • 2026</span>
+          </div>
+        </a>
+        <nav class="d-none d-lg-flex align-items-center gap-4">
+          <a class="nav-link-custom active" href="#liner-notes">Liner Notes</a>
+          <a class="nav-link-custom" href="#Vanue">Vanue</a>
+          <a class="nav-link-custom" href="#tracklist">tracklist</a>
+        </nav>
+        <div class="d-flex align-items-center gap-2">
+          <div class="audio-pill">
+            <button class="play-btn" id="nav-play-toggle" type="button" aria-label="Play or pause preview"><span class="material-symbols-outlined fs-6" id="nav-play-icon">play_arrow</span></button>
+            <div>
+              <span class="d-block eyebrow text-gold" style="font-size:8px">Side A • Track 01</span>
+              <span class="d-block small text-truncate" style="max-width:140px;font-size:11px">Akad-Payung Teduh</span>
+            </div>
+          </div>
+          <div class="rounded-circle bg-surface border-custom d-flex align-items-center justify-content-center text-subtle" style="width:34px;height:34px"><span class="material-symbols-outlined">account_circle</span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top:64px">
+    <div class="meta-bar">
+      <div class="container-fluid px-3 px-lg-5 py-3 d-flex flex-wrap align-items-center justify-content-between gap-2 eyebrow text-subtle">
+        <div class="d-flex flex-wrap align-items-center gap-2 gap-md-3">
+          <span class="rounded-circle bg-warning" style="width:6px;height:6px;background:var(--gold)!important"></span>
+          <span class="text-light">Modern Studio Matte Series</span><span class="text-muted-custom">|</span><span>Cat. No. AR-2026-1018</span>
+        </div>
+        <div class="d-flex align-items-center gap-3 meta-extra"><span>Format: 180g Pure Vinyl / 33⅓ RPM</span><span class="text-muted-custom">|</span><span class="text-gold">Mastered for Two Hearts</span></div>
+      </div>
+    </div>
+
+    <section class="container-fluid px-3 px-lg-5 hero-section" id="liner-notes">
+      <div class="row g-5 g-xl-6 align-items-start">
+        <div class="col-12 col-lg-5">
+          <div class="album-stage">
+            <div class="vinyl" id="vinyl-disc">
+              <div class="vinyl-label">
+                <span class="eyebrow text-gold" style="font-size:8px">Side A</span>
+                <span class="serif small mt-1">A &amp; R</span>
+                <span class="mono text-muted-custom" style="font-size:8px">33⅓ RPM</span>
+                <span class="rounded-circle bg-black-custom border-custom mt-1" style="width:10px;height:10px"></span>
+              </div>
+            </div>
+            <div class="album-cover">
+              <div class="d-flex justify-content-between align-items-start eyebrow text-subtle" style="font-size:9px">
+                <div><span class="text-gold fw-semibold">Edition 01</span><p class="text-muted-custom mt-1 mb-0" style="font-size:8px">Cat. AR-2026</p></div>
+                <span class="px-2 py-1 border-custom rounded bg-black-custom">Stereo LP</span>
+              </div>
+              <div>
+                <div class="mb-3" style="height:1px;width:32px;background:var(--gold)"></div>
+                <div class="eyebrow text-gold mb-2">The Wedding Celebration</div>
+                <h2 class="serif album-title fw-normal mb-3">Eternal Harmony</h2>
+                <div class="d-flex justify-content-between align-items-center border-top border-hairline pt-3 eyebrow text-subtle" style="font-size:9px"><span>Semanggi &amp; Lily</span><span>December 2026</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-4 d-flex align-items-center gap-2 text-muted-custom eyebrow" style="font-size:9px"><span class="material-symbols-outlined text-gold">album</span> Gatefold Sleeve Edition • Audiophile Lacquer Cut</div>
+        </div>
+
+        <div class="col-12 col-lg-7">
+          <div class="mb-4">
+            <div class="eyebrow text-gold mb-3"><span class="me-2">●</span>Liner Notes &amp; Official Announcement</div>
+            <p class="eyebrow text-subtle mb-4">The Record of Our Love • Dua Nada Menjadi Satu Simfoni</p>
+            <div class="border-top border-hairline pt-3">
+              <h1 class="serif display-5 fw-normal mb-0">Tuan Semanggi, <span class="fs-4 text-subtle">S.Kom</span></h1>
+              <div class="d-flex align-items-center gap-3 my-2 text-gold serif fst-italic fs-2"><span>&amp;</span><div class="flex-grow-1" style="height:1px;background:var(--hairline)"></div></div>
+              <h2 class="serif display-5 fw-normal">Puan Lily Putih</h2>
+            </div>
+            <p class="text-subtle fw-light lh-lg mt-4" style="max-width:600px">Bersama keluarga, kami mengundang Anda untuk menjadi bagian dari awal lembaran melodi kehidupan kami dalam perayaan pernikahan yang kudus dan hangat.</p>
+          </div>
+
+          <div class="panel p-4 mb-4" id="Vanue">
+            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 pb-3 border-bottom border-hairline eyebrow text-subtle">
+              <span><span class="text-gold me-2">●</span>Countdown to First Dance</span><span class="text-muted-custom">Standard Time (WIB)</span>
+            </div>
+            <div class="row row-cols-4 g-2 g-sm-3 pt-4" id="wedding-countdown">
+              <div class="col"><div class="countdown-cell"><span class="countdown-number" id="cd-days">00</span><span class="countdown-label">Days</span></div></div>
+              <div class="col"><div class="countdown-cell"><span class="countdown-number" id="cd-hours">00</span><span class="countdown-label">Hours</span></div></div>
+              <div class="col"><div class="countdown-cell"><span class="countdown-number" id="cd-mins">00</span><span class="countdown-label">Minutes</span></div></div>
+              <div class="col"><div class="countdown-cell"><span class="countdown-number text-gold" id="cd-secs">00</span><span class="countdown-label">Seconds</span></div></div>
+            </div>
+            <p class="small text-subtle mt-3 mb-0 d-none" id="countdown-ended">Hari perayaan telah berlalu. Terima kasih atas doa dan cinta Anda.</p>
+          </div>
+
+          <div class="row g-3 mb-4">
+            <div class="col-12 col-md-6"><div class="panel event-card p-4 d-flex flex-column justify-content-between">
+              <div><div class="d-flex justify-content-between align-items-center eyebrow text-subtle mb-3" style="font-size:9px"><span class="bg-surface border-custom rounded px-2 py-1 text-gold">Side A</span><span>Akad Nikah</span></div><h3 class="serif fs-5">Holy Matrimony</h3><p class="small text-subtle mb-0">Pukul 15:30 WIB • The Glass Pavillion</p></div>
+              <div class="border-top border-hairline pt-3 mt-4 d-flex justify-content-between gap-2 eyebrow text-muted-custom" style="font-size:8px"><span>Jum'at, 18 Dec 2026</span><span>Sacred &amp; Intimate</span></div>
+            </div></div>
+            <div class="col-12 col-md-6"><div class="panel event-card p-4 d-flex flex-column justify-content-between">
+              <div><div class="d-flex justify-content-between align-items-center eyebrow text-subtle mb-3" style="font-size:9px"><span class="bg-surface border-custom rounded px-2 py-1">Side B</span><span>Resepsi Gala</span></div><h3 class="serif fs-5">Grand Celebration</h3><p class="small text-subtle mb-0">Pukul 18:30 WIB • The Grand Conservatory</p></div>
+              <div class="border-top border-hairline pt-3 mt-4 d-flex justify-content-between gap-2 eyebrow text-muted-custom" style="font-size:8px"><span>Jum'at, 18 Dec 2026</span><span>Dinner &amp; Soirée</span></div>
+            </div></div>
+          </div>
+
+          <div class="panel p-4 mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-3">
+              <div class="d-flex align-items-center gap-3">
+                <button class="play-btn" id="btn-play-preview" type="button" aria-label="Play or pause preview"><span class="material-symbols-outlined" id="play-icon">play_arrow</span></button>
+                <div><span class="d-block eyebrow text-gold mb-1" style="font-size:8px">Preview Track 01</span><span class="small fw-medium">Menuju Senja - Payung Teduh</span></div>
+              </div>
+              <span class="mono small text-subtle" id="track-time">00:00</span>
+            </div>
+            <div class="progress progress-custom mt-3" id="progress-track" style="cursor:pointer"><div class="progress-bar" id="progress-bar" role="progressbar" style="width:0%"></div></div>
+            <p class="serif fst-italic text-subtle small text-center pt-3 mt-3 mb-0 border-top border-hairline">“Dalam setiap ritme hidup, kamu adalah melodi terindahku.”</p>
+          </div>
+
+          <div class="d-flex flex-column flex-sm-row flex-wrap gap-2 pt-1">
+            <button class="btn-light-custom flex-grow-1" type="button" onclick="document.getElementById('messages').scrollIntoView({behavior:'smooth'})"><span class="material-symbols-outlined align-middle me-1" style="font-size:16px">mail</span> Open Invitation</button>
+            <button class="btn-dark-custom" type="button" id="save-date"><span class="material-symbols-outlined align-middle me-1" style="font-size:16px">calendar_today</span> Save The Date</button>
+            <a class="btn-dark-custom text-center" href="#tracklist"><span class="material-symbols-outlined align-middle me-1" style="font-size:16px">queue_music</span> Tracklist</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-3 mt-5 pt-5 border-top border-hairline" id="tracklist">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="panel detail-card p-4 d-flex flex-column justify-content-between">
+            <div>
+              <div class="eyebrow text-gold mb-2" style="font-size:9px">Track 01 • Matrimony</div>
+              <h3 class="serif fs-5">The Sacred Vows</h3>
+              <p class="small text-subtle lh-lg mt-3">Pemberkatan dan pertukaran janji suci di hadapan keluarga terdekat. Live strings ensemble.</p>
+            </div>
+            <div class="border-top border-hairline pt-3 mt-3 d-flex justify-content-between gap-2 eyebrow text-muted-custom" style="font-size:8px">
+              <span>Duration: 45 Min</span>
+              <span>Dress: Formal Black Tie</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="panel detail-card p-4 d-flex flex-column justify-content-between">
+            <div>
+              <div class="eyebrow text-gold mb-2" style="font-size:9px">Track 02 • Celebration</div>
+              <h3 class="serif fs-5">Dinner &amp; First Dance</h3>
+              <p class="small text-subtle lh-lg mt-3">Jamuan makan malam santai diiringi seleksi piringan hitam klasik dan jazz quartet.</p>
+            </div>
+            <div class="border-top border-hairline pt-3 mt-3 d-flex justify-content-between gap-2 eyebrow text-muted-custom" style="font-size:8px">
+              <span>Duration: Unlimited</span>
+              <span>Vinyl DJ Set</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="panel detail-card p-4 d-flex flex-column justify-content-between">
+            <div>
+              <div class="eyebrow text-gold mb-2" style="font-size:9px">Location • Mastering Studio</div>
+              <h3 class="serif fs-5">The Big House</h3>
+              <p class="small text-subtle lh-lg mt-3">Jl. Kayumanis No. 18, Cibinong, Bogor. Valet service tersedia.</p>
+            </div>
+            <div class="border-top border-hairline pt-3 mt-3 d-flex justify-content-between gap-2 eyebrow" style="font-size:9px">
+              <a class="text-gold" href="https://maps.app.goo.gl/B1yVdpEF3YZDyc2f9" target="_blank" rel="noopener">Open In Maps →</a>
+              <span class="text-muted-custom">Access: AR2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel p-4 p-md-5 mt-4" id="messages">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-6">
+            <div class="d-flex align-items-center gap-3">
+              <div>
+                <h3 class="serif fs-5 mb-1">Leave a Message or Vinyl Request</h3>
+                <p class="small text-subtle mb-0">Kirimkan doa restu atau rekomendasi lagu piringan hitam untuk kami.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <form id="message-form" class="d-flex flex-column flex-sm-row gap-2">
+              <input id="message-text" class="form-control message-input flex-grow-1" type="text" placeholder="Tuliskan ucapan atau judul lagu..." aria-label="Ucapan atau judul lagu" required>
+              <button class="btn-gold text-nowrap" type="submit">Send Note</button>
+            </form>
+            <div class="small text-gold mt-2 d-none" id="message-feedback" role="status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container-fluid px-3 px-lg-5 d-flex flex-column flex-sm-row align-items-center justify-content-between gap-3 eyebrow text-muted-custom" style="font-size:9px">
+      <div class="d-flex align-items-center gap-3"><span class="serif text-light" style="font-size:14px;letter-spacing:0;text-transform:none">Semanggi &amp; Lily</span><span>•</span><span>December 18, 2026</span></div>
+      <div class="d-flex align-items-center gap-3"><span>High Fidelity Stereo</span><span>•</span><span>Mastered in Bogor</span></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
